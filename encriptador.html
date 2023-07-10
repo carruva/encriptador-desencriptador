@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador-Desencriptador</title>
+    <script src="funciones.js"></script>
+    <link rel="stylesheet" href="estilos-encrip.css">
+</head>
+
+    <header>
+        <img class="logo" src="imagenes/logo.png" alt="">
+    </header>
+        <body>
+            <main>
+                <section>
+                    <textarea class="encriptar" name="encriptar" id="encriptar" cols="30" rows="10" placeholder="Ingresa tu texto aqui"></textarea>
+                    <div >
+                        <h6 class="alerta">Solo ingresa letras minusculas y sin acento</h6>
+                    </div>
+                    <div class="botones">
+                        <button class="btn-encriptar" type="button" onclick="encriptar();">Encriptar</button>
+                        <button class="btn-desencriptar" type="button" onclick="desencriptar();">Desencriptar</button>
+                    </div>  
+                    
+                </section>
+                <section>
+                    <textarea name="desencriptar" id="desencriptar" class="desencriptar" cols="30" rows="10" placeholder=""></textarea>
+                    <div>
+                        <button type="button" class="btn-copiar" onclick="copiar();">Copiar</button>
+                    </div>
+                </section>
+
+            </main>
+    
+            <footer>
+            Jose Carlos RV - Encriptador-Desencriptador
+            </footer>    
+        </body>
+</html>
