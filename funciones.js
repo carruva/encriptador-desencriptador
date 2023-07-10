@@ -26,7 +26,7 @@ function desencriptar(){
     var txtEncriptar = document.getElementById("encriptar").value.toLowerCase();
     var letras = [{ encontrar: /ai/g, cambiar: 'a'}, {encontrar: /enter/g, cambiar : 'e'},
     {encontrar: /imes/g,cambiar :'i'},{encontrar: /ober/g,cambiar:'o'},{encontrar:/ufat/g, cambiar:'u'}];
-   // console.log(letras);
+   // array para localizar las palabras a reemplazar por letra
     
     if (txtEncriptar) {
 
